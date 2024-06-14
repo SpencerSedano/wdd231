@@ -11,6 +11,7 @@ document.getElementById("current-year").textContent = currentYear;
 const lastModified = document.lastModified;
 document.getElementById("last-modified").textContent = lastModified;
 
+// Dynamic Course List
 const courses = [
   { name: "Course 1", credits: 3 },
   { name: "Course 2", credits: 4 },
