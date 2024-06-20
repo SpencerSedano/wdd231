@@ -1,0 +1,23 @@
+{
+  "familyName": "SedanoVelasco",
+  "movedInWardDate": "2022-08-03",
+  "numberOfPeopleInFamily": 3,
+  "VisitedByBishopric": true,
+  "FamilyMembers": [
+    {
+      "name": "Julio Cesar",
+      "gender": "Male",
+      "birthdate": "1998-03-23"
+    },
+    {
+      "name": "Rosa Hualparimachi",
+      "gender": "Female",
+      "birthdate": "1960-02-10"
+    },
+    {
+      "name": "Gustavo Maximiliano",
+      "gender": "Male",
+      "birthdate": "2010-12-12"
+    }
+  ]
+}
