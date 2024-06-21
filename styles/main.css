@@ -36,6 +36,7 @@ header {
 
 .navbar-links a:hover {
   background-color: #575757;
+  color: white;
 }
 
 .join-button {
