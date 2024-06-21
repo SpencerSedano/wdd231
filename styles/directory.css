@@ -1,0 +1,14 @@
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+main div {
+  margin: 2rem;
+}
