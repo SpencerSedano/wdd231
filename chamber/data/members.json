@@ -1,0 +1,60 @@
+{
+  "companies": [
+    {
+      "name": "Aegis",
+      "address": "No. 3-18, Jioushe Rd., Houli Township, Taichung Hsien, Taiwan 421, Taichung",
+      "phonenumber": "+886425590525",
+      "websiteurl": "https://www.first-chant.com/en",
+      "image": "https://www.taiwanyello.com/img/tw/b/1474741559_30454.png",
+      "membershiplevel": 2
+    },
+    {
+      "name": "Mocca Design",
+      "address": "No. 98 Yonghe Rd Daya District, Taichung, Taiwan",
+      "phonenumber": "0905317535",
+      "websiteurl": "www.moccadesign.co/",
+      "image": "https://www.taiwanyello.com/img/tw/z/1687253746-47-mocca-design.png",
+      "membershiplevel": 3
+    },
+    {
+      "name": "Jenn Hong",
+      "address": "No.9, Ln., 157 Yongfeng Rd., Taiping Dist, Taichung, Taiwan",
+      "phonenumber": "+886422773659",
+      "websiteurl": "http:www.chentaiintl.com.tw",
+      "image": "https://www.taiwanyello.com/img/tw/e/1473040607-40-jenn-hong-machinery-co-ltd.jpg",
+      "membershiplevel": 1
+    },
+    {
+      "name": "Surglasses",
+      "address": "428, Taichung City, Daya District, Keya Rd, 41號2樓, Taichung, Taiwan",
+      "phonenumber": "+886425652818",
+      "websiteurl": "www.surglasses.com/",
+      "image": "https://www.taiwanyello.com/img/tw/h/1696260928-31-surglasses.jpg",
+      "membershiplevel": 2
+    },
+    {
+      "name": "Nibble Feet",
+      "address": "30-1 hanyang st, Taichung, Taiwan",
+      "phonenumber": "+886900565830",
+      "websiteurl": "nibblefeet.com/",
+      "image": "https://www.taiwanyello.com/img/tw/f/1665673094-20-nibble-feet.png",
+      "membershiplevel": 1
+    },
+    {
+      "name": "Beoti Laboratories",
+      "address": "289 Dasheng St., Taichung 408032, Taiwan, Taichung",
+      "phonenumber": "+886423292988",
+      "websiteurl": "www.beoti.com",
+      "image": "https://www.taiwanyello.com/img/tw/x/1706594704-29-beoti-laboratories.jpg",
+      "membershiplevel": 3
+    },
+    {
+      "name": "Sam Yi International",
+      "address": "No. 35-1, Cheng Kung Rd., Shen Kang Dist., , Taichung, Taiwan",
+      "phonenumber": "+886425631339",
+      "websiteurl": "www.samyi.com.tw",
+      "image": "https://www.taiwanyello.com/img/tw/b/1369124745_26379.jpg",
+      "membershiplevel": 2
+    }
+  ]
+}

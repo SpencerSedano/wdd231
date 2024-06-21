@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Taichung Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://spencersedano.github.io/wdd231/images/chamber.jpg">
+  <meta property="og:url" content="https://spencersedano.github.io/wdd231/">
+  <title>Taichung Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script defer src="scripts/script.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <h1><a href="index.html">Taichung Chamber of Commerce</a></h1>
+      </div>
+      <div class="navbar-links noactive" id="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="#discover">Discover</a>
+        <a href="#join" class="join-button">Join</a>
+      </div>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div id="chamber-image">
+        <img src="images/chamber.jpg" alt="Writing Plan">
+
+      </div>
+      <h2>Welcome to Taichung Chamber of Commerce</h2>
+      <p>Your gateway to business opportunities and community growth in Taichung.</p>
+    </section>
+
+    <section id="directory">
+      <h2>Member Directory</h2>
+      <!-- Dynamic course list  -->
+      <div id="course-list"></div>
+    </section>
+
+    <section id="discover">
+      <h2>Discover Taichung</h2>
+      <p>Explore the vibrant culture, attractions, and business environment of Taichung.</p>
+    </section>
+
+    <section id="join">
+      <h2>Join Us</h2>
+      <p>Become a member of the Taichung Chamber of Commerce and connect with like-minded business professionals.</p>
+      <button class="join-now">Join Now</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; <span id="current-year"></span> Taichung Chamber of Commerce. Last modified: <span
+          id="last-modified"></span></p>
+      <div class="social-icons">
+        <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+        <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
