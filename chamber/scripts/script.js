@@ -12,19 +12,19 @@ const lastModified = document.lastModified;
 document.getElementById("last-modified").textContent = lastModified;
 
 // Dynamic Course List
-const courses = [
+/* const courses = [
   { name: "Course 1", credits: 3 },
   { name: "Course 2", credits: 4 },
   { name: "Course 3", credits: 2 },
-];
+]; */
 
-const courseListContainer = document.getElementById("course-list");
-
-courses.forEach((course) => {
+/* const courseListContainer = document.getElementById("course-list");
+ */
+/* courses.forEach((course) => {
   const courseElement = document.createElement("div");
   courseElement.textContent = `${course.name} - ${course.credits} credits`;
   courseListContainer.appendChild(courseElement);
-});
+}); */
 
 //Spotlight
 async function getMembersData() {
