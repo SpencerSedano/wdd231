@@ -1,0 +1,36 @@
+.thank-you {
+  overflow-x: hidden;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you h1 {
+  font-size: 2rem;
+  text-align: center;
+  animation: pulse 2s infinite;
+}
+
+.form-data {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.form-data p {
+  margin: 5px 0;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

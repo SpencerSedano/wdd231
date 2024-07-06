@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taichung - Chamber of Commerce">
+  <meta name="author" content="Spencer Sedano">
+  <meta property="og:title" content="Taichung Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://spencersedano.github.io/wdd231/chamber/images/chamber.jpg">
+  <meta property="og:url" content="https://spencersedano.github.io/wdd231/chamber/">
+  <title>Join - Taichung Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/form.css">
+
+  <!--   <script src="scripts/script.js" defer></script> -->
+  <script src="scripts/form.js" defer></script>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <h1><a href="index.html">Taichung Chamber of Commerce</a></h1>
+      </div>
+      <div class="navbar-links noactive" id="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="#discover">Discover</a>
+        <a href="join.html" class="join-button">Join</a>
+      </div>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+  </header>
+  <div id="welcome-message">
+    <p><span id="join-word">Join</span> the Taichung Chamber of Commerce today and become part of a dynamic community
+      dedicated to fostering
+      business
+      growth and collaboration. By joining us, you'll gain access to invaluable networking opportunities, expert
+      insights,
+      and
+      resources tailored to enhance your business success. Connect with like-minded professionals and take your business
+      to
+      new heights with the support of Taiwan's premier business association.</p>
+
+  </div>
+  <!-- FORM -->
+
+  <div class="form-box">
+    <h1>Be a Member of Taichung Chamber of Commerce</h1>
+    <form action="thankyou.html" method="get">
+      <fieldset>
+        <legend>Application Information</legend>
+        <label for="first-name">First Name:</label>
+        <input id="first-name" type="text" name="first-name" autocomplete="given-name" required>
+        <br><br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" autocomplete="family-name" required>
+        <br><br>
+        <label for="org-title">Organizational Title:</label>
+        <input type="text" id="org-title" name="org-title" autocomplete="organization-title" pattern="[a-zA-Z\- ]{7,}"
+          title="Please enter a valid organizational title (minimum 7 characters, alphabets, hyphens, and spaces only)."
+          required>
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="example@example.com"
+          required><br><br>
+
+        <label for="mobile">Mobile Phone Number: </label>
+        <input type="tel" id="mobile" name="mobile" autocomplete="tel" required>
+        <br><br>
+        <label for="business-name">Business/Organization Name:</label>
+        <input type="text" id="business-name" name="business-name" autocomplete="organization" required>
+        <br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Membership Level</legend>
+        <label for="membership-level">Select Membership Level:</label>
+        <select id="membership-level" name="membership-level" required>
+          <option value="NP">NP Membership (Non-profit, no fee)</option>
+          <option value="Bronze">Bronze Membership</option>
+          <option value="Silver">Silver Membership</option>
+          <option value="Gold">Gold Membership</option>
+        </select><br><br>
+        <!-- Modal  -->
+        <label for="membership-info">Learn More about Membership Levels:</label>
+        <button type="button" id="membership-info">Learn More</button>
+        <dialog data-modal>
+          <h2>Membership Benefits</h2>
+          <p>Details about membership benefits at each level go here...</p>
+          <p>NP Membership: No fee, tailored benefits for non-profit organizations.</p>
+          <p>Bronze Membership: Basic benefits with affordable pricing.</p>
+          <p>Silver Membership: Enhanced benefits including event discounts.</p>
+          <p>Gold Membership: Premium benefits with priority access and advertising opportunities.</p>
+        </dialog>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Information</legend>
+        <label for="business-description">Business/Organization Description:</label><br>
+        <textarea id="business-description" name="business-description" rows="4" cols="50"></textarea><br><br>
+      </fieldset>
+
+      <!-- Hidden Timestamp Field -->
+      <input type="hidden" id="timestamp" name="timestamp" value="">
+
+
+      <!-- Submit Button -->
+      <input type="submit" value="JOIN">
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; <span id="current-year"></span> Taichung Chamber of Commerce. Last modified: <span
+          id="last-modified"></span></p>
+      <div class="social-icons">
+        <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+        <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
