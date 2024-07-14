@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taichung - Chamber of Commerce">
+  <meta name="author" content="Spencer Sedano">
+  <meta property="og:title" content="Taichung Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://spencersedano.github.io/wdd231/chamber/images/chamber.jpg">
+  <meta property="og:url" content="https://spencersedano.github.io/wdd231/chamber/">
+  <title>Taichung Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/script.js" defer></script>
+  <script src="scripts/discover.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <h1><a href="index.html">Taichung Chamber of Commerce</a></h1>
+      </div>
+      <div class="navbar-links noactive" id="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="discover.html">Discover</a>
+        <a href="join.html" class="join-button">Join</a>
+      </div>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="discover-container">
+      <aside class="sidebar">
+        <div class="demographics">
+          <h3>Total Houses</h3>
+          <p>1,072,458</p>
+          <h3>Population</h3>
+          <p>2,852,286</p>
+          <h3>Men Population</h3>
+          <p>1,393,802</p>
+          <h3>Women Population</h3>
+          <p>1,458,484</p>
+          <img src="images/age.png" alt="Population by Age">
+        </div>
+        <div id="visit-message">
+          <!-- Message about the last visit will be displayed here -->
+        </div>
+      </aside>
+      <div class="main-content">
+        <h2>Local Photos of Interest</h2>
+        <div class="image-gallery">
+          <img src="images/teather.jpg" alt="Taichung Teather" loading="lazy">
+          <img src="images/rainbow.jpg" alt="Rainbow Village" loading="lazy">
+          <img src="images/fengchia.jpg" alt="Fengchia Night Market" loading="lazy">
+          <img src="images/lihpao.jpg" alt="Lihpao Amusement Park" loading="lazy">
+          <img src="images/maplegarden.jpg" alt="Maple Garden" loading="lazy">
+          <img src="images/garden.jpg" alt="Garden" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; <span id="current-year"></span> Taichung Chamber of Commerce. Last modified: <span
+          id="last-modified"></span></p>
+      <div class="social-icons">
+        <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+        <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
