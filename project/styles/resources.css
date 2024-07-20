@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(247, 244, 244);
+}
+
+#resources-section {
+  display: flex;
+
+  max-width: 500px;
+  flex-direction: column;
+  margin: 0 auto;
+}

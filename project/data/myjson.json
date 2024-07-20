@@ -1,0 +1,22 @@
+{
+  "resources": [
+    {
+      "name": "ChhoeTaigi",
+      "picture": "https://chhoe.taigi.info/images/home_image_text@2x.png",
+      "url": "https://chhoe.taigi.info/",
+      "type": "Dictionary"
+    },
+    {
+      "name": "Bite-Size Taiwanese",
+      "picture": "https://i0.wp.com/bitesizetaiwanese.com/wp-content/uploads/2019/08/cropped-Horizontal-Blue-TW-1.png",
+      "url": "https://bitesizetaiwanese.com/",
+      "type": "Podcast"
+    },
+    {
+      "name": "Sutian MOE Dictionary",
+      "picture": "https://sutian.moe.edu.tw/static/image/logo/logo.png",
+      "url": "https://sutian.moe.edu.tw/zh-hant/",
+      "type": "Dictionary"
+    }
+  ]
+}
